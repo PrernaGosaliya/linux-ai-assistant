@@ -1,0 +1,5 @@
+Thu Mar 12 19:00:49 UTC 2026 | USER: install the nmap
+Thu Mar 12 19:00:49 UTC 2026 | ASSISTANT: To install Nmap on most Debian/Ubuntu-based systems, you can use the following command. For other distributions like Fedora/RHEL or Arch, the package manager command would differ (e.g., `dnf install nmap` or `pacman -S nmap`).
+Thu Mar 12 19:00:49 UTC 2026 | CMD: sudo apt update && sudo apt install nmap
+Thu Mar 12 19:00:49 UTC 2026 | OUTPUT: sudo: apt: command not found
+--------------------------------------
