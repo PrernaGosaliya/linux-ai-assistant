@@ -3,3 +3,17 @@ Thu Mar 12 19:00:49 UTC 2026 | ASSISTANT: To install Nmap on most Debian/Ubuntu-
 Thu Mar 12 19:00:49 UTC 2026 | CMD: sudo apt update && sudo apt install nmap
 Thu Mar 12 19:00:49 UTC 2026 | OUTPUT: sudo: apt: command not found
 --------------------------------------
+Thu Mar 12 19:01:20 UTC 2026 | USER: install httpd
+Thu Mar 12 19:01:20 UTC 2026 | ASSISTANT: To install the Apache HTTP Server (httpd) on Red Hat-based systems like Fedora, CentOS, or RHEL, you can use the dnf package manager. The `-y` flag automatically confirms the installation without prompting.
+Thu Mar 12 19:01:22 UTC 2026 | CMD: sudo dnf install httpd -y
+Thu Mar 12 19:01:22 UTC 2026 | OUTPUT: Updating Subscription Management repositories.
+Unable to read consumer identity
+
+This system is not registered with an entitlement server. You can use "rhc" or "subscription-manager" to register.
+
+Last metadata expiration check: 0:39:14 ago on Thu Mar 12 18:22:07 2026.
+Package httpd-2.4.63-4.el10_1.3.x86_64 is already installed.
+Dependencies resolved.
+Nothing to do.
+Complete!
+--------------------------------------
