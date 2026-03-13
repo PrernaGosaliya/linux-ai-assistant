@@ -50,3 +50,8 @@ Fri Mar 13 04:02:27 UTC 2026 | ASSISTANT: To install Vim on Debian-based systems
 Fri Mar 13 04:02:27 UTC 2026 | CMD: sudo apt install vim
 Fri Mar 13 04:02:27 UTC 2026 | OUTPUT: sudo: apt: command not found
 --------------------------------------
+Fri Mar 13 04:06:03 UTC 2026 | USER: bro install gedit
+Fri Mar 13 04:06:03 UTC 2026 | ASSISTANT: To install gedit, you typically use your distribution's package manager. For Debian/Ubuntu-based systems, use 'apt'. For Fedora/RHEL-based systems, use 'dnf' or 'yum'. I'll provide the 'apt' command as it's very common.
+Fri Mar 13 04:06:03 UTC 2026 | CMD: sudo apt install gedit
+Fri Mar 13 04:06:03 UTC 2026 | OUTPUT: sudo: apt: command not found
+--------------------------------------
