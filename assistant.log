@@ -55,3 +55,17 @@ Fri Mar 13 04:06:03 UTC 2026 | ASSISTANT: To install gedit, you typically use yo
 Fri Mar 13 04:06:03 UTC 2026 | CMD: sudo apt install gedit
 Fri Mar 13 04:06:03 UTC 2026 | OUTPUT: sudo: apt: command not found
 --------------------------------------
+Fri Mar 13 04:07:02 UTC 2026 | USER: install httpd
+Fri Mar 13 04:07:02 UTC 2026 | ASSISTANT: To install httpd (Apache web server) on Red Hat-based systems (like Fedora, CentOS, RHEL, AlmaLinux), you can use the `dnf` package manager. After installation, you'll typically want to start and enable the service to run on boot, and open the firewall. If you're on an older system using `yum`, replace `dnf` with `yum`. If you are on a Debian/Ubuntu system, the package name is `apache2` and you would use `sudo apt update && sudo apt install apache2`.
+Fri Mar 13 04:07:03 UTC 2026 | CMD: sudo dnf install httpd
+Fri Mar 13 04:07:03 UTC 2026 | OUTPUT: Updating Subscription Management repositories.
+Unable to read consumer identity
+
+This system is not registered with an entitlement server. You can use "rhc" or "subscription-manager" to register.
+
+Last metadata expiration check: 9:44:56 ago on Thu Mar 12 18:22:07 2026.
+Package httpd-2.4.63-4.el10_1.3.x86_64 is already installed.
+Dependencies resolved.
+Nothing to do.
+Complete!
+--------------------------------------
